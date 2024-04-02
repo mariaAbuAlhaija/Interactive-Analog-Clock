@@ -18,9 +18,6 @@ Item {
         color: buttonColor
         border.color: borderColor ?? buttonColor
 
-        // anchors.left: parent.left
-        // anchors.leftMargin: 30
-
         Text {
             id: label
             anchors.centerIn: parent

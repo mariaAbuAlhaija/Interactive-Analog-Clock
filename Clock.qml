@@ -187,7 +187,7 @@ Window {
                     buttonLabel:  clockTimer.running ? "Edit Time": "OK"
                     buttonWidth: 26
                     buttonHeight: 116
-                    buttonColor: "#C3D4E3"
+                    buttonColor: clockTimer.running ? "#C3D4E3" : "#50c878"
                     onButtonClicked:  {
                        clockTimer.running = !clockTimer.running
                     }}
